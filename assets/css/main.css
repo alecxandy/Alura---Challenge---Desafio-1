@@ -1,0 +1,88 @@
+body {
+    background: #E5E5E5;
+}
+
+#logo {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+#textarea {
+    position: absolute;
+    width: 580px;
+    height: 288px;
+    left: 240px;
+    top: 110px;
+
+    display: inline;
+    background: #E5E5E5;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    border-radius: 30px;
+}
+
+#bt_criptografar {
+
+    position: absolute;
+    top: 550px;
+    left: 260px;
+
+    display: inline;
+    padding: 24px;
+    text-align: center;
+    width: 250px;
+    height: 67px;
+    color: #D8DFE8;
+    background: #0A3871;
+    border: none;
+    border-radius: 24px;
+
+}
+
+#bt_descriptografar {
+
+    position: absolute;
+    top: 550px;
+    left: 560px;
+
+    display: inline;
+    padding: 24px;
+    text-align: center;
+    width: 250px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    border-radius: 24px;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+#textarea:hover {
+    background-color: rgb(249, 249, 250);
+    color: rgb(44, 8, 104);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    top: 630px;
+    right: 1140px;
+}
+
+.coyrightp {
+    font-size: 13px;
+}
