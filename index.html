@@ -20,10 +20,14 @@
         </div>
     </header>
     <main>
-        <textarea id="textarea"></textarea>
-        <button id="bt_criptografar">Criptografar</button>
-        <button id="bt_descriptografar">Descriptografar</button>
+        <label for="textarea"></label>
+        <textarea id="textarea" autofocus   placeholder="Digite seu texto aqui...."></textarea>
+        <button id="bt_criptografar" onclick="aplicarCriptografia()">Criptografar</button>
+        <button id="bt_descriptografar" onclick="aplicarDescriptografia()">Descriptografar</button>
         <div class="resultado">
+            <label for=""></label>
+            <textarea id="textarea2" disabled></textarea>
+            <button id="bt_copiar">Copiar</button>
         </div>
     </main>
     <footer>

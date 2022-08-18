@@ -15,6 +15,8 @@ body {
     left: 240px;
     top: 110px;
 
+
+    text-transform: lowercase;
     display: inline;
     background: #E5E5E5;
     border: none;
@@ -43,6 +45,7 @@ body {
     border: none;
     border-radius: 24px;
 
+
 }
 
 #bt_descriptografar {
@@ -63,7 +66,7 @@ body {
 }
 
 button:hover {
-    background-color: blue;
+    background-color: #0A3871;
     color: white;
     transform: scale(1.1);
     transition: all 0.5s;
@@ -71,9 +74,59 @@ button:hover {
 
 #textarea:hover {
     background-color: rgb(249, 249, 250);
-    color: rgb(44, 8, 104);
+    color: #0A3871;
     transform: scale(1.1);
     transition: all 0.5s;
+}
+
+
+.resultado {
+    position: absolute;
+    top: 37px;
+    left: 950px;
+
+    border: none;
+    background: white;
+    width: 350px;
+    height: 600px;
+    border-radius: 24px;
+}
+
+#textarea2 {
+    position: absolute;
+    top: 20px;
+    left: 22px;
+
+    width: 300px;
+    height: 400px;
+    display: inline;
+    background:white;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0A3871;
+    border-radius: 30px;
+}
+
+#bt_copiar {
+    position: absolute;
+    top: 508px;
+    left: 50px;
+
+    display: inline;
+    padding: 24px;
+    text-align: center;
+    width: 250px;
+    height: 67px;
+    color: blue;
+    background: white;
+    border: none;
+    border-radius: 24px;
+    border: #0A3871 solid 1px;
+
 }
 
 footer {
