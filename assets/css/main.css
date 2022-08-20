@@ -109,6 +109,11 @@ button:hover {
     line-height: 150%;
     color: #0A3871;
     border-radius: 30px;
+
+    
+    background-repeat: no-repeat;
+    background-image: url("../img/menino.png");
+
 }
 
 #bt_copiar {

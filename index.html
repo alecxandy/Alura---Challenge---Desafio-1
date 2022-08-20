@@ -19,16 +19,24 @@
             <Img src="./assets/img/Vector.png"></Img>
         </div>
     </header>
+
     <main>
-        <label for="textarea"></label>
-        <textarea id="textarea" autofocus   placeholder="Digite seu texto aqui...."></textarea>
-        <button id="bt_criptografar" onclick="aplicarCriptografia()">Criptografar</button>
-        <button id="bt_descriptografar" onclick="aplicarDescriptografia()">Descriptografar</button>
-        <div class="resultado">
-            <label for=""></label>
-            <textarea id="textarea2" disabled></textarea>
-            <button id="bt_copiar">Copiar</button>
-        </div>
+
+        <section>
+            <label for="textarea"></label>
+            <textarea id="textarea" autofocus placeholder="Digite seu texto aqui...."></textarea>
+            <button id="bt_criptografar" onclick="aplicarCriptografia()">Criptografar</button>
+            <button id="bt_descriptografar" onclick="aplicarDescriptografia()">Descriptografar</button>
+        </section>
+
+        <section>
+            <div class="resultado">
+                <label for="texto"></label>
+                <textarea id="textarea2" disabled></textarea>
+                <button id="bt_copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+
     </main>
     <footer>
         <p class="coyrightp">&copy; Copyright Alexandre Gomes - 2022</p>
