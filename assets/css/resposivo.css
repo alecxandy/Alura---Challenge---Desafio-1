@@ -1,0 +1,44 @@
+@media screen and (max-width:480px) {
+
+    #logo {
+        position: static;
+    }
+
+    #textarea {
+        position: static;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #textarea:hover {
+        background-color: rgb(249, 249, 250);
+        color: #0A3871;
+    }
+
+    #bt_criptografar {
+        position: static;
+    }
+
+    #bt_descriptografar {
+        position: static;
+    }
+
+    .resultado {
+        position: static;
+    }
+
+    #textarea2 {
+        position: static;
+    }
+
+    #bt_copiar {
+        position: static;
+    }
+
+    footer {
+        text-align: center;
+        position: static;
+    }
+
+
+
+}
